@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationServices-Web.config Connection String" description="ApplicationServices Connection String used in web.config by the application to access the database." defaultvalue="data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnetdb.mdf;User Instance=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+  <parameter name="cnl-Web.config Connection String" description="cnl Connection String used in web.config by the application to access the database." defaultvalue="server=192.168.9.137;Database=tacl;user=rahul;password=bt#lk786" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cnl']/@connectionString" />
+  </parameter>
+  <parameter name="cnd-Web.config Connection String" description="cnd Connection String used in web.config by the application to access the database." defaultvalue="server=192.168.9.137;Database=tacl;user=rahul;password=bt#lk786" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cnd']/@connectionString" />
+  </parameter>
+  <parameter name="cnhrm1-Web.config Connection String" description="cnhrm1 Connection String used in web.config by the application to access the database." defaultvalue="Server=192.168.9.137;Database=hrm1;User ID=rahul;Password=bt#lk786;Trusted_Connection=False;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cnhrm1']/@connectionString" />
+  </parameter>
+  <parameter name="cnQuality-Web.config Connection String" description="cnQuality Connection String used in web.config by the application to access the database." defaultvalue="Server=192.168.9.137;Database=Quality;User ID=rahul;Password=bt#lk786;Trusted_Connection=False;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cnQuality']/@connectionString" />
+  </parameter>
+  <parameter name="cntaclsal-Web.config Connection String" description="cntaclsal Connection String used in web.config by the application to access the database." defaultvalue="Server=192.168.9.137;Database=tacl_sal;User ID=rahul;Password=bt#lk786;Trusted_Connection=False;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cntaclsal']/@connectionString" />
+  </parameter>
+</parameters>
